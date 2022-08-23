@@ -89,14 +89,14 @@ sudo apt update
 sudo apt install jenkins -y
 ```
 #### 6. Configure Jenkins
-#### After installing the jenkins ping your public ip address with 8080
-#### It will prompt for admin password, check the path mentioned in UI 
-#### Input the password and install the suggested plugins
-#### Skip and continue as admin (if you want, you can create a admin user that's upto you)
-#### Now click on New Item, provide a proper name to it and select Freestyle Project & click Ok
-#### Now Provide the description with proper work flow
-#### select Source Code Management as Git
-#### In the Build triggers configure pollscm logic in this manner for periodic builds to happen
+###### After installing the jenkins ping your public ip address with 8080
+###### It will prompt for admin password, check the path mentioned in UI 
+###### Input the password and install the suggested plugins
+###### Skip and continue as admin (if you want, you can create a admin user that's upto you)
+###### Now click on New Item, provide a proper name to it and select Freestyle Project & click Ok
+###### Now Provide the description with proper work flow
+###### select Source Code Management as Git
+###### In the Build triggers configure pollscm logic in this manner for periodic builds to happen
         MINUTE HOUR DOM MONTH DOW
        * MINUTE	Minutes within the hour (0–59)
        * HOUR	The hour of the day (0–23)

@@ -12,7 +12,7 @@ BUCKET = "insert_bucket_name_here"
 
 @app.route('/')
 def entry_point():
-    return 'Hello World!'
+    return 'welcome to myapp.com'
 
 
 @app.route("/storage")
